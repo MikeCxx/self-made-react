@@ -1,0 +1,29 @@
+{
+	"name": "self-made-react",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint --ext .ts,.js,.jsx,.tsx --fix --quiet ./packages"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@commitlint/cli": "^17.6.1",
+		"@commitlint/config-conventional": "^17.6.1",
+		"@typescript-eslint/eslint-plugin": "^5.58.0",
+		"@typescript-eslint/parser": "^5.58.0",
+		"commitlint": "^17.6.1",
+		"eslint": "^8.38.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin@latest,": "link:typescript-eslint/eslint-plugin@latest,",
+		"husky": "^8.0.3",
+		"parser@latest": "link:typescript-eslint/parser@latest",
+		"prettier": "^2.8.7",
+		"rollup": "^3.20.4",
+		"typescript": "^5.0.4"
+	}
+}
